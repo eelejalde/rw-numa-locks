@@ -9,7 +9,7 @@ Cohort-locks are NUMA-aware spin locks that use two levels of locks organized hi
 
 WARNING! The code is in a state that allows us to do testing, and it obviously can be used (we think the locks are correct), but it has no intention of being "release" code. Our intention was to put the code online and get comments on it while we work on a library with much more encapsulation and less code duplication. This, however, will take a little time (unless someone on the internet would like to help us!). The code for the locks is quite clean, so it would not take much time to bring yourself up to speed. Shoot us a message ({eelejalde | lferres}@udec.cl) and fork us if you'd like to help out!
 
-You can see the experiments results in <a href='http://azu-labs.com/numa_locks/'>azu-labs</a> page
+You can see some experiment results in <a href='http://azu-labs.com/numa_locks/'>azu-labs</a> page
 
 Locks Abbreviations:
 <ul>
